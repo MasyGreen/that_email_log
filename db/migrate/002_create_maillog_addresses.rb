@@ -1,4 +1,4 @@
-class CreateMaillogAddresses < ActiveRecord::Migration
+class CreateMaillogAddresses < ActiveRecord::Migration[5.0]
 
     def self.up
         create_table :maillog_addresses do |t|
