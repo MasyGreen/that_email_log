@@ -1,4 +1,4 @@
-class AddMaillogsOpenedOn < ActiveRecord::Migration
+class AddMaillogsOpenedOn < ActiveRecord::Migration[5.0]
 
     def self.up
         add_column :maillogs, :opened_on, :datetime
